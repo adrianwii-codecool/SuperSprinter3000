@@ -20,4 +20,9 @@ public class MainController {
         model.addAttribute("tasks", taskService.getTasks());
         return "index";
     }
+
+    @GetMapping("/add-task")
+    public String addTask() {
+        return "addTask";
+    }
 }
