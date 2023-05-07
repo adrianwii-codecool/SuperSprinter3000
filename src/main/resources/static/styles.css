@@ -1,0 +1,30 @@
+h1 {
+    color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+    background-color: #1E90FF;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+}
+
+tr:hover {
+    background-color: #d0d0d0;
+}
