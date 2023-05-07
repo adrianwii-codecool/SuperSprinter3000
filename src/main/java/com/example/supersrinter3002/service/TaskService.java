@@ -24,4 +24,8 @@ public class TaskService {
 
         return this.taskRepository.findAll();
     }
+
+    public void addTask(Task task) {
+        this.taskRepository.save(task);
+    }
 }
